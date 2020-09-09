@@ -1,0 +1,10 @@
+<!--components/tips/tips.wxml-->
+<view class="mask" wx:if="{{show}}">
+  <view class="tips">
+    <view class="msg" wx:if="{{msg.length != 0}}">{{msg}}</view>
+    <view class="icon-circle" wx:else>
+      <image class="icon" src="/resources/images/defaluet_bg.png"></image>
+    </view>
+  </view>
+</view>
+
