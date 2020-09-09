@@ -3,8 +3,8 @@
   <view class="tips">
     <view class="msg" wx:if="{{msg.length != 0}}">{{msg}}</view>
     <view class="icon-circle" wx:else>
-      <image class="icon" src="/resources/images/defaluet_bg.png"></image>
+      <image class="icon" src="/resources/images/defaluet_bg.png" wx:if="{{icon.length == 0}}"></image>
+      <image class="icon" src="{{icon}}" wx:else></image>
     </view>
   </view>
 </view>
-

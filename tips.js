@@ -2,14 +2,18 @@
 const defaultData = {
     show: false,
     msg: '',
-    time: 1500
+    time: 1500,
+    icon: ''
   }
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    icon: {
+      type: String,
+      value: ''
+    }
   },
 
   /**
@@ -35,8 +39,6 @@ Component({
       })
     },
     hide() {
-      console.info(this.data, defaultData)
-
       this.setData(defaultData)
     }
   }
