@@ -23,7 +23,7 @@
 
 ##### `show()` 方法支持传参 `this.tips.hide({msg: 'loading'})` `this.tips.hide({msg: 'loading', time: 3000})` `this.tips.hide({time: 0})`
 
-##### 如果`time`值非0需要手动调用`hide()`方法隐藏
+##### 如果`time`值为0需要手动调用`hide()`方法隐藏
 
 # 参数
 
