@@ -21,7 +21,7 @@
 5.  在需要的地方调用 `this.tips.show()` or `this.tips.hide()` 方法
 
 
-##### `show()` 方法支持传参 `this.tips.hide({msg: 'loading'})` `this.tips.hide({msg: 'loading', time: 3000})` `this.tips.hide({time: 0})`
+##### `show()` 方法支持传参 `this.tips.show({msg: 'loading'})` `this.tips.show({msg: 'loading', time: 3000})` `this.tips.show({time: 0})`
 
 ##### 如果`time`值为0需要手动调用`hide()`方法隐藏
 
